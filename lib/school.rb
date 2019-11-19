@@ -5,7 +5,7 @@ def initialize(name)
   @rost = {}
 end
 def roster()
-  @rosr
+  @rost
 end
 end
 
