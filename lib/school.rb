@@ -21,7 +21,7 @@ def grade(grd)
 end
 def sort
   x=0
-  @rost.sort_by { |k, v| v }
+  @rost.each { |k, v| v }
 end
 end
 
