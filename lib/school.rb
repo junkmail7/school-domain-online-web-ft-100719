@@ -11,5 +11,10 @@ def roster()
   @rost
 end
 def add_student(student, grade)
+  if @rost[grade]==nil
+  @rost[grade] = []
+  end
+  @rost[grade] << student
+end
 end
 
