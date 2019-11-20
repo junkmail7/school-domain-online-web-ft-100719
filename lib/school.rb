@@ -20,7 +20,7 @@ def grade(grd)
   @rost[grd]
 end
 def sort
-  
+  @rost.sort_by { |grd, student| student }
 end
 end
 
