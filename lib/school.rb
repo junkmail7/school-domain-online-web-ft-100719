@@ -7,6 +7,6 @@ end
 def roster()
   @rost
 end
-def add_student(student)
+def add_student(student, grade)
 end
 
