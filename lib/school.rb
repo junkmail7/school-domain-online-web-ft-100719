@@ -20,6 +20,7 @@ def grade(grd)
   @rost[grd]
 end
 def sort
+  x=0
   @rost.sort_by { |k, v| v }
 end
 end
