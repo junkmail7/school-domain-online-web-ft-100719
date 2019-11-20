@@ -1,7 +1,7 @@
 require 'pry'
 class School
-attr_accessor :sname, :grade, :student
-attr_reader :sname, :grade, :student
+attr_accessor :sname, :grd, :student
+attr_reader :sname, :grd, :student
 
 def initialize(name)
   @name = "Test School"
@@ -10,14 +10,14 @@ end
 def roster()
   @rost
 end
-def add_student(student, grade)
-  if @rost[grade]==nil
-  @rost[grade] = []
+def add_student(student, grd)
+  if @rost[grd]==nil
+  @rost[grd] = []
   end
-  @rost[grade] << student
+  @rost[grd] << student
 end
-def grade(grade)
-  @ros[grade]
+def grade(grd)
+  @ros[grd]
 end
 
 end
