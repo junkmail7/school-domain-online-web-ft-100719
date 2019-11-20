@@ -1,5 +1,8 @@
 require 'pry'
 class School
+attr_accessor :sname, :grade, :student
+attr_reader :sname, :grade, :student
+
 def initialize(name)
   @name = "Test School"
   @rost = {}
