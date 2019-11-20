@@ -22,7 +22,9 @@ end
 def sort
   x=0
   while x!=3
-  @rost[x]
+  @rost[x].sort
+  x=x+1
+  end
 end
 end
 
