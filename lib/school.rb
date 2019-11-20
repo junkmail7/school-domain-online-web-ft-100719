@@ -16,5 +16,9 @@ def add_student(student, grade)
   end
   @rost[grade] << student
 end
+def grade(grade)
+  @ros[grade]
+end
+
 end
 
