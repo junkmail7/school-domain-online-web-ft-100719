@@ -21,7 +21,8 @@ def grade(grd)
 end
 def sort
   x=0
-  @rost.each { |k, v| v }
+  while x!=3
+  @rost[x]
 end
 end
 
