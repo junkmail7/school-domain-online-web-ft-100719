@@ -21,10 +21,7 @@ def grade(grd)
 end
 def sort
   x=0
-  while x!=3
-  @rost[x].sort
-  x=x+1
-  end
+  @rost.each
 end
 end
 
