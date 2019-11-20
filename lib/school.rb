@@ -19,6 +19,8 @@ end
 def grade(grd)
   @rost[grd]
 end
-
+def sort
+  
+end
 end
 
