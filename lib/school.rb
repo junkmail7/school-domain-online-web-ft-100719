@@ -21,7 +21,7 @@ def grade(grd)
 end
 def sort
   @rost.each do |k, v|
-  v.sort
+  v.sort!
   end
 end
 end
