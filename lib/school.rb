@@ -20,8 +20,10 @@ def grade(grd)
   @rost[grd]
 end
 def sort
-  x=0
-  @rost.each
+  @rost.each do |k|
+  text = "Current number is: #{n}"
+  puts text
+  end
 end
 end
 
